@@ -108,7 +108,7 @@ img {
     display: block;
 }
 
-.accordion:hover .accordion-item:has(input[checked]) .accordion-cross-icon {
+.accordion:hover .accordion-item:has(.accordion [type=radio]:checked ~ label) .accordion-cross-icon {
     display: block;
 }
 
@@ -117,7 +117,7 @@ img {
 }
 
 .accordion [type=radio]:checked ~ label > .accordion-wrapper {
-    color: red;
+    color: black;
 }
 
 .accordion [type=radio]:checked ~ label > .image {
