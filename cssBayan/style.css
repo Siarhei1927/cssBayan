@@ -10,9 +10,6 @@ body {
     background: #c4bb71;
 }
 
-input[type=radio] {
-    display: none;
-}
 
 .container {
     scroll-behavior: smooth;
